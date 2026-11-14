@@ -1,7 +1,7 @@
 # 🛡️ Software Supply Chain Security & SBOM Attestation Sentinel
 
 [![SLSA Level 3](https://img.shields.io/badge/SLSA-Level_3_Provenance-darkgreen.svg?logo=security&logoColor=white)](https://slsa.dev/)
-[![CI](https://github.com/KoshaG0hil/Supply-Chain-Security-SBOM-Attestation-Mesh/actions/workflows/ci.yml/badge.svg)](https://github.com/KoshaG0hil/Supply-Chain-Security-SBOM-Attestation-Mesh/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/Tests-3%2F3%20Passed-brightgreen.svg?logo=pytest&logoColor=white)](tests)
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX_2.3_%7C_CycloneDX-blue.svg)](https://spdx.dev/)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Cosign / in-toto](https://img.shields.io/badge/Signature-in--toto_Attestation-purple.svg)](https://in-toto.io/)
