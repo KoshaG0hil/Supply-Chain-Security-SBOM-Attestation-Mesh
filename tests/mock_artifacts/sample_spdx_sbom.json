@@ -1,0 +1,29 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "enterprise-auth-service",
+  "packages": [
+    {
+      "name": "cryptography",
+      "SPDXID": "SPDXRef-Package-crypto",
+      "versionInfo": "42.0.5",
+      "licenseConcluded": "Apache-2.0",
+      "supplier": "Organization: PyCA"
+    },
+    {
+      "name": "pydantic",
+      "SPDXID": "SPDXRef-Package-pydantic",
+      "versionInfo": "2.6.4",
+      "licenseConcluded": "MIT",
+      "supplier": "Organization: Pydantic"
+    },
+    {
+      "name": "rogue-gpl-library",
+      "SPDXID": "SPDXRef-Package-gpl",
+      "versionInfo": "1.0.0",
+      "licenseConcluded": "GPL-3.0",
+      "supplier": "Person: Anonymous"
+    }
+  ]
+}

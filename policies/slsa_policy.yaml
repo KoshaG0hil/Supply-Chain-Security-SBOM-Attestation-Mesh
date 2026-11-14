@@ -1,0 +1,33 @@
+version: "1.0"
+metadata:
+  profile: "SLSA-Level-3-Attestation-Baseline"
+  enforce_strict_provenance: true
+
+trusted_builders:
+  - "https://github.com/KoshaG0hil"
+  - "https://actions.github.com/trusted-builder"
+
+minimum_slsa_level: 3
+
+cve_thresholds:
+  disallow_critical_cves: true
+  disallow_high_cves: true
+  max_medium_cves: 5
+
+required_sbom_fields:
+  - "spdxVersion"
+  - "dataLicense"
+  - "SPDXID"
+  - "name"
+  - "packages"
+
+disallowed_licenses:
+  - "GPL-3.0"
+  - "AGPL-3.0"
+  - "SSPL-1.0"
+
+allowed_licenses:
+  - "MIT"
+  - "Apache-2.0"
+  - "BSD-3-Clause"
+  - "ISC"

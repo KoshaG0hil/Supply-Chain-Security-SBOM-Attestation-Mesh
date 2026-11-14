@@ -1,0 +1,35 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "https://slsa.dev/provenance/v0.2",
+  "subject": [
+    {
+      "name": "enterprise-auth-service.bin",
+      "digest": {
+        "sha256": "1e8ae0f847a22a790e6e43b948900b114f26279c32c4abe2c9cd408ae1e7c1d5"
+      }
+    }
+  ],
+  "predicate": {
+    "builder": {
+      "id": "https://github.com/KoshaG0hil/trusted-builder"
+    },
+    "buildType": "https://github.com/slsa-framework/slsa-github-generator/actions@v1",
+    "invocation": {
+      "configSource": {
+        "uri": "git+https://github.com/KoshaG0hil/Supply-Chain-Security-SBOM-Attestation-Mesh",
+        "digest": {
+          "sha1": "7c8e2b96c8d234a98b1e4c7d0e9f8a7b6c5d4e3f"
+        },
+        "entryPoint": ".github/workflows/attest.yml"
+      }
+    },
+    "materials": [
+      {
+        "uri": "git+https://github.com/KoshaG0hil/Supply-Chain-Security-SBOM-Attestation-Mesh",
+        "digest": {
+          "sha1": "7c8e2b96c8d234a98b1e4c7d0e9f8a7b6c5d4e3f"
+        }
+      }
+    ]
+  }
+}
